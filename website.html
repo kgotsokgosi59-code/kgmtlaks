@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | KGMTLAKS Photography</title>
+    <meta name="description" content="Browse the KGMTLAKS Photography portfolio: weddings, golf days and birthdays.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./imgs/favicon.png">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+<header id="top">
+    <a class="logo-holder" href="index.html" aria-label="KGMTLAKS Photography – home">
+        <img class="logo" src="./imgs/logo-mark.jpg" alt="KGM TLAKS Photography logo">
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li><li><a href="portfolio.html" class="active">Portfolio</a></li><li><a href="weddings.html">Weddings</a></li><li><a href="golf-days.html">Golf Days</a></li><li><a href="birthdays.html">Birthdays</a></li>
+            <li><a href="index.html#contact" class="button">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+<section class="page-hero small-hero">
+    <div class="hero-bg" style="background-image:url('./imgs/full/wedding-13.jpg')"></div>
+    <div class="hero-inner">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Choose a <span>collection.</span></h1>
+        <p class="lead">33 photographs, grouped by occasion. Pick a collection to see the full set.</p>
+    </div>
+</section>
+<section class="section">
+    <div class="wrap">
+        <div class="coll-grid"><a class="coll-card reveal" href="weddings.html">
+        <img src="./imgs/thumb/wedding-06.jpg" alt="Couple sharing a laugh in the garden" loading="lazy">
+        <div class="coll-over"><span class="coll-tag">Collection 01 &middot; 17 photos</span><h3>Weddings</h3><p>Getting ready, arrivals, couple portraits, rings and décor.</p><span class="coll-go">View collection &rarr;</span></div>
+    </a><a class="coll-card reveal" href="golf-days.html">
+        <img src="./imgs/thumb/golf-07.jpg" alt="Follow-through under a clear blue sky" loading="lazy">
+        <div class="coll-over"><span class="coll-tag">Collection 02 &middot; 11 photos</span><h3>Golf Days</h3><p>Swings, tee-offs, putting and close-up details.</p><span class="coll-go">View collection &rarr;</span></div>
+    </a><a class="coll-card reveal" href="birthdays.html">
+        <img src="./imgs/thumb/birthday-01.jpg" alt="Black bead cake topped with red sugar roses and gold leaves" loading="lazy">
+        <div class="coll-over"><span class="coll-tag">Collection 03 &middot; 5 photos</span><h3>Birthdays</h3><p>Cakes, styled tables and milestone moments.</p><span class="coll-go">View collection &rarr;</span></div>
+    </a></div>
+        <div class="enter-banner reveal">
+            <div><h2>Want something like this?</h2><p>Tell us about your event and we&rsquo;ll get back to you.</p></div>
+            <a href="index.html#contact" class="button solid">Get in touch</a>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <div class="wrap foot">
+        <div class="foot-logo"><img src="./imgs/logo-mark.jpg" alt="KGM TLAKS Photography logo"></div>
+        <p>&copy; <span id="year">2026</span> KGMTLAKS PTY-LTD. All photographs are protected and may not be used without permission.<br>
+        <a data-mail href="mailto:info@example.com">info@example.com</a> &middot; <a data-tel href="tel:+27000000000">+27 00 000 0000</a></p>
+        <a href="#top" class="link">Back to top &uarr;</a>
+    </div>
+</footer>
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-nav prev" aria-label="Previous photo">&#10094;</button>
+    <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+    <button class="lb-nav next" aria-label="Next photo">&#10095;</button>
+</div>
+</body>
+</html>

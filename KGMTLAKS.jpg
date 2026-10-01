@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Days | KGMTLAKS Photography</title>
+    <meta name="description" content="Golf Days photography portfolio by KGMTLAKS.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./imgs/favicon.png">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+<header id="top">
+    <a class="logo-holder" href="index.html" aria-label="KGMTLAKS Photography – home">
+        <img class="logo" src="./imgs/logo-mark.jpg" alt="KGM TLAKS Photography logo">
+    </a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="weddings.html">Weddings</a></li><li><a href="golf-days.html" class="active">Golf Days</a></li><li><a href="birthdays.html">Birthdays</a></li>
+            <li><a href="index.html#contact" class="button">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+<section class="page-hero">
+    <div class="hero-bg" style="background-image:url('./imgs/full/golf-07.jpg')"></div>
+    <div class="hero-inner">
+        <p class="crumbs"><a href="index.html">Home</a> / <a href="portfolio.html">Portfolio</a> / Golf Days</p>
+        <p class="eyebrow">Collection 02 &middot; 11 photos</p>
+        <h1>Golf Days</h1>
+        <p class="lead">Corporate and charity golf days shot from the tee box to the green &ndash; fast action, low-angle drama and the small details that tell the story.</p>
+        <div class="chips"><a href="#g1">Swings &amp; action <small>2</small></a><a href="#g2">Tee-off &amp; putting <small>6</small></a><a href="#g3">Details <small>3</small></a></div>
+    </div>
+</section>
+<section class="section dark groups">
+    <div class="wrap"><section class="group" id="g1">
+        <header class="group-head reveal"><span class="gnum">01</span><div><h2>Swings &amp; action</h2><p>Driver off the tee, caught mid-follow-through.</p></div><span class="gcount">2 photos</span></header>
+        <div class="gallery"><figure class="g-item" tabindex="0" style="--ar:1.501" data-full="./imgs/full/golf-01.jpg" data-alt="Drive swing on the tee box"><img src="./imgs/thumb/golf-01.jpg" alt="Drive swing on the tee box" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.501" data-full="./imgs/full/golf-07.jpg" data-alt="Follow-through under a clear blue sky"><img src="./imgs/thumb/golf-07.jpg" alt="Follow-through under a clear blue sky" loading="lazy"><span class="tag">Golf day</span></figure></div>
+    </section><section class="group" id="g2">
+        <header class="group-head reveal"><span class="gnum">02</span><div><h2>Tee-off &amp; putting</h2><p>Lining it up, teeing up and rolling it home.</p></div><span class="gcount">6 photos</span></header>
+        <div class="gallery"><figure class="g-item" tabindex="0" style="--ar:1.55" data-full="./imgs/full/golf-05.jpg" data-alt="Teeing up with the driver"><img src="./imgs/thumb/golf-05.jpg" alt="Teeing up with the driver" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.501" data-full="./imgs/full/golf-02.jpg" data-alt="Placing the ball on the tee"><img src="./imgs/thumb/golf-02.jpg" alt="Placing the ball on the tee" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.512" data-full="./imgs/full/golf-09.jpg" data-alt="Crouching to set the tee"><img src="./imgs/thumb/golf-09.jpg" alt="Crouching to set the tee" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.501" data-full="./imgs/full/golf-06.jpg" data-alt="Lining up a putt on the green"><img src="./imgs/thumb/golf-06.jpg" alt="Lining up a putt on the green" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.699" data-full="./imgs/full/golf-03.jpg" data-alt="Putter, ball and cup"><img src="./imgs/thumb/golf-03.jpg" alt="Putter, ball and cup" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.501" data-full="./imgs/full/golf-11.jpg" data-alt="Putting from a distance"><img src="./imgs/thumb/golf-11.jpg" alt="Putting from a distance" loading="lazy"><span class="tag">Golf day</span></figure></div>
+    </section><section class="group" id="g3">
+        <header class="group-head reveal"><span class="gnum">03</span><div><h2>Details</h2><p>Shoes, gloves and the ball in the hand.</p></div><span class="gcount">3 photos</span></header>
+        <div class="gallery"><figure class="g-item" tabindex="0" style="--ar:1.484" data-full="./imgs/full/golf-08.jpg" data-alt="Shoes and driver head, close up"><img src="./imgs/thumb/golf-08.jpg" alt="Shoes and driver head, close up" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.336" data-full="./imgs/full/golf-04.jpg" data-alt="Glove and driver detail"><img src="./imgs/thumb/golf-04.jpg" alt="Glove and driver detail" loading="lazy"><span class="tag">Golf day</span></figure><figure class="g-item" tabindex="0" style="--ar:1.501" data-full="./imgs/full/golf-10.jpg" data-alt="Callaway ball held up to the lens"><img src="./imgs/thumb/golf-10.jpg" alt="Callaway ball held up to the lens" loading="lazy"><span class="tag">Golf day</span></figure></div>
+    </section></div>
+</section>
+<section class="section">
+    <div class="wrap">
+        <header class="section-head reveal"><p class="eyebrow">Keep exploring</p><h2>More collections</h2></header>
+        <div class="coll-grid two"><a class="coll-card reveal" href="weddings.html">
+        <img src="./imgs/thumb/wedding-06.jpg" alt="Couple sharing a laugh in the garden" loading="lazy">
+        <div class="coll-over"><span class="coll-tag">Collection 01 &middot; 17 photos</span><h3>Weddings</h3><p>Getting ready, arrivals, couple portraits, rings and décor.</p><span class="coll-go">View collection &rarr;</span></div>
+    </a><a class="coll-card reveal" href="birthdays.html">
+        <img src="./imgs/thumb/birthday-01.jpg" alt="Black bead cake topped with red sugar roses and gold leaves" loading="lazy">
+        <div class="coll-over"><span class="coll-tag">Collection 03 &middot; 5 photos</span><h3>Birthdays</h3><p>Cakes, styled tables and milestone moments.</p><span class="coll-go">View collection &rarr;</span></div>
+    </a></div>
+        <div class="enter-banner reveal">
+            <div><h2>Planning a golf day?</h2><p>Let&rsquo;s talk about your date and what you need.</p></div>
+            <a href="index.html#contact" class="button solid">Book a shoot</a>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <div class="wrap foot">
+        <div class="foot-logo"><img src="./imgs/logo-mark.jpg" alt="KGM TLAKS Photography logo"></div>
+        <p>&copy; <span id="year">2026</span> KGMTLAKS PTY-LTD. All photographs are protected and may not be used without permission.<br>
+        <a data-mail href="mailto:info@example.com">info@example.com</a> &middot; <a data-tel href="tel:+27000000000">+27 00 000 0000</a></p>
+        <a href="#top" class="link">Back to top &uarr;</a>
+    </div>
+</footer>
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <button class="lb-nav prev" aria-label="Previous photo">&#10094;</button>
+    <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+    <button class="lb-nav next" aria-label="Next photo">&#10095;</button>
+</div>
+</body>
+</html>
