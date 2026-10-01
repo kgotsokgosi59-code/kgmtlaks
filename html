@@ -14,11 +14,41 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" href="./imgs/camera.jpg" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/png" href="./imgs/favicon.png" />
     <script src="./scripts.js" defer></script>
   </head>
   <body>
+    <div id="loader" role="status" aria-live="polite" aria-label="Loading">
+      <div class="camwrap">
+        <div class="camrig">
+          <img
+            class="camimg"
+            src="./imgs/camera.jpg"
+            alt=""
+            width="780"
+            height="596"
+          />
+          <span class="fl fl-burst"></span>
+          <span class="fl fl-lens"></span>
+          <span class="fl fl-glint"></span>
+          <span class="fl fl-btn"></span>
+        </div>
+        <div class="slot">
+          <div class="card"><i></i></div>
+        </div>
+      </div>
+      <p class="ltext">TLAKS Photography</p>
+      <div class="lbar"><span></span></div>
+    </div>
+    <noscript
+      ><style>
+        #loader {
+          display: none;
+        }
+      </style></noscript
+    >
     <header id="top">
       <a
         class="logo-holder"
@@ -42,6 +72,7 @@
       <nav>
         <ul id="menu">
           <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="weddings.html">Weddings</a></li>
           <li><a href="golf-days.html">Golf Days</a></li>
@@ -71,7 +102,7 @@
             <a href="portfolio.html" class="button solid"
               >Enter the portfolio &rarr;</a
             >
-            <a href="#about" class="button ghost">Who we are</a>
+            <a href="about.html" class="button ghost">Our story</a>
           </div>
         </div>
         <a href="#about" class="scroll-cue" aria-label="Scroll down"
@@ -107,10 +138,11 @@
             <p class="eyebrow">About the business</p>
             <h2>Hi, we&rsquo;re KGMTLAKS.</h2>
             <p>
-              KGMTLAKS PTY-LTD is a photography business based in Gauteng, South
-              Africa. Every shoot starts with listening &ndash; to the couple,
-              the host or the tournament organiser &ndash; so the final gallery
-              feels like <em>their</em> day.
+              KGMTLAKS PTY-LTD is the photography business of
+              <strong>Kgotso George Matlakala</strong> (KGM), based in Gauteng,
+              South Africa. Every shoot starts with listening &ndash; to the
+              couple, the host or the tournament organiser &ndash; so the final
+              gallery feels like <em>their</em> day.
             </p>
             <p>
               We love the big moments, but we are just as drawn to the small
@@ -122,7 +154,8 @@
               <li>Edited in colour and black &amp; white</li>
               <li>Every image delivered with the KGM TLAKS signature</li>
             </ul>
-            <a href="portfolio.html" class="button solid">See our work</a>
+            <a href="about.html" class="button solid">Our story</a>
+            <a href="portfolio.html" class="button outline">See our work</a>
           </div>
         </div>
       </section>
@@ -245,20 +278,50 @@
                 <span>Email</span
                 ><a
                   data-mail
-                  href="/cdn-cgi/l/email-protection#1871767e77587d60797568747d367b7775"
+                  href="/cdn-cgi/l/email-protection#4b202c263f272a20380b2c262a222765282426"
                   ><span
                     class="__cf_email__"
-                    data-cfemail="0b62656d644b6e736a667b676e25686466"
+                    data-cfemail="b4dfd3d9c0d8d5dfc7f4d3d9d5ddd89ad7dbd9"
                     >[email&#160;protected]</span
                   ></a
                 >
               </li>
               <li>
-                <span>Phone</span
-                ><a data-tel href="tel:+27000000000">+27 00 000 0000</a>
+                <span>Phone</span>
+                <div>
+                  <a data-tel href="tel:+27793171152">079 317 1152</a>
+                  <em class="sub">Mobile</em><br /><a
+                    data-tel2
+                    href="tel:+27812471946"
+                    >081 247 1946</a
+                  >
+                </div>
+              </li>
+              <li>
+                <span>Messenger</span
+                ><a
+                  data-messenger
+                  href="https://www.facebook.com/messages/t/kgmtlaks/"
+                  target="_blank"
+                  rel="noopener"
+                  >Kgmtlaks PTY - LTD</a
+                >
               </li>
               <li><span>Location</span>Gauteng, South Africa</li>
             </ul>
+            <div
+              class="socials on-light"
+              data-social
+              aria-label="Social media"
+            ></div>
+            <a
+              class="button msn"
+              data-messenger-btn
+              href="https://www.facebook.com/messages/t/kgmtlaks/"
+              target="_blank"
+              rel="noopener"
+              >Chat on Messenger</a
+            >
           </div>
           <form id="contact-form" novalidate class="reveal">
             <label
@@ -308,18 +371,50 @@
           are protected and may not be used without permission.<br />
           <a
             data-mail
-            href="/cdn-cgi/l/email-protection#f29b9c949db2978a939f829e97dc919d9f"
+            href="/cdn-cgi/l/email-protection#cca7aba1b8a0ada7bf8caba1ada5a0e2afa3a1"
             ><span
               class="__cf_email__"
-              data-cfemail="51383f373e113429303c213d347f323e3c"
+              data-cfemail="69020e041d0508021a290e04080005470a0604"
               >[email&#160;protected]</span
             ></a
           >
-          &middot; <a data-tel href="tel:+27000000000">+27 00 000 0000</a>
+          &middot; <a data-tel href="tel:+27793171152">079 317 1152</a> &middot;
+          <a data-tel2 href="tel:+27812471946">081 247 1946</a> &middot;
+          <a
+            data-messenger
+            href="https://www.facebook.com/messages/t/kgmtlaks/"
+            target="_blank"
+            rel="noopener"
+            >Messenger</a
+          >
         </p>
+        <div class="socials" data-social aria-label="Social media"></div>
         <a href="#top" class="link">Back to top &uarr;</a>
       </div>
     </footer>
+    <button
+      class="sound-toggle"
+      id="sound-toggle"
+      aria-label="Camera sound on"
+      aria-pressed="true"
+      title="Camera shutter sound"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        width="22"
+        height="22"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M4 8h3l1.5-2h7L17 8h3v11H4z" />
+        <circle cx="12" cy="13" r="3.5" /></svg
+      ><span class="sx"></span>
+    </button>
+    <div id="flash" aria-hidden="true"></div>
     <div
       class="lightbox"
       id="lightbox"
@@ -347,7 +442,7 @@
           if (b) {
             var d = b.createElement("script");
             d.innerHTML =
-              "window.__CF$cv$params={r:'a438ecc03d950feb',t:'MTc5MDgzMTA0Nw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+              "window.__CF$cv$params={r:'a43bc16b68fb1d20',t:'MTc5MDg2MDczMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
             b.getElementsByTagName("head")[0].appendChild(d);
           }
         }
